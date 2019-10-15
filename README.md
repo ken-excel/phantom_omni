@@ -28,9 +28,10 @@ Please refer to http://wiki.ros.org/catkin/Tutorials/create_a_workspace
 6. Compile the code  
 > catkin_make
 
-7. Debugging  
-Once you have debugged the code (omni_angle/src/main.cpp)
+7. Debugging
+Debug the sample code (omni_angle/src/main.cpp). The rest of packages/codes can be left without any changes.
+Once you have debugged the sample code, try
 > roslaunch phantom_omni omni.launch  
-> rosrun omni_angle omni_angle.  
+> rosrun omni_angle omni_angle  
 
 The phantom omni should move all the joints 30 degrees.
