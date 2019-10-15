@@ -1,7 +1,6 @@
 # phantom_omni
 Phantom Omni Manipulator Training for SRD laboratory  
 Contact: Kengkij Promsutipong (k.promsutipong@srd.mech.tohoku.ac.jp)  
-	 Shuhei Yamaguchi (s.yamaguchi@srd.mech.tohoku.ac.jp)
 
 ## Instruction
 
