@@ -14,9 +14,23 @@ On Terminal
 
 3. Make your workspace  
 Please refer to http://wiki.ros.org/catkin/Tutorials/create_a_workspace
+On Terminal
+> cd
+> mkdir catkin_ws
+> cd catkin_ws
+> mkdir src
+> catkin_make
+or
+> catkin_build
+(catkin build is a package for building, making, and organizing catkin workspace which provides more option than the ROS-built-in catkin_make. In case you are interested in using catkin build, please refer to https://catkin-tools.readthedocs.io/en/latest/installing.html)
+Source your workspace
+> nano ~/.bashrc
+Go to the bottom line, type
+> source ~/catkin_ws/devel/setup.bash
+Ctrl+X to exit, Press Y then Enter to save
 
 4. Clone this repository  
-> cd catkin_ws/src  
+> cd ~/catkin_ws/src  
 > sudo apt-get install git  
 > git clone https://github.com/ken-excel/phantom_omni
 
@@ -27,6 +41,8 @@ Please refer to http://wiki.ros.org/catkin/Tutorials/create_a_workspace
 
 6. Compile the code  
 > catkin_make
+or
+> catkin build
 
 7. Debugging
 Debug the sample code (omni_angle/src/main.cpp). The rest of packages/codes can be left without any changes.
