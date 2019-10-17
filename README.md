@@ -15,18 +15,18 @@ On Terminal
 3. Make your workspace  
 Please refer to http://wiki.ros.org/catkin/Tutorials/create_a_workspace
 On Terminal
-> cd
-> mkdir catkin_ws
-> cd catkin_ws
-> mkdir src
-> catkin_make
-or
-> catkin_build
-(catkin build is a package for building, making, and organizing catkin workspace which provides more option than the ROS-built-in catkin_make. In case you are interested in using catkin build, please refer to https://catkin-tools.readthedocs.io/en/latest/installing.html)
-Source your workspace
-> nano ~/.bashrc
-Go to the bottom line, type
-> source ~/catkin_ws/devel/setup.bash
+> cd  
+> mkdir catkin_ws  
+> cd catkin_ws  
+> mkdir src  
+> catkin_make  
+or  
+> catkin_build  
+(catkin build is a package for building, making, and organizing catkin workspace which provides more option than the ROS-built-in catkin_make. In case you are interested in using catkin build, please refer to https://catkin-tools.readthedocs.io/en/latest/installing.html)  
+Source your workspace  
+> nano ~/.bashrc  
+Go to the bottom line, type  
+> source ~/catkin_ws/devel/setup.bash  
 Ctrl+X to exit, Press Y then Enter to save
 
 4. Clone this repository  
